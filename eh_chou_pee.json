@@ -1,0 +1,12 @@
+{
+  "type": "micro",
+  "wake_word": "éh_chou_pee",
+  "author": "jerome",
+  "website": "",
+  "model": "./éh_chou_pee.tflite",
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.66,
+    "sliding_window_average_size": 10
+  }
+}
